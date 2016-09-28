@@ -1,0 +1,9 @@
+<ul>
+  <li
+    ng-repeat="chat in $ctrl.chats;">
+    <chat-conversation
+      chat="chat"
+      update="$ctrl.onUserUpdate($event);">
+    </chat-conversation>
+  </li>
+</ul>

@@ -1,0 +1,16 @@
+<chat-profile
+  [profile]="profile">
+</chat-profile>
+
+<chat-filter
+  [status]="profile"
+  (filter)="handleFilter($event);">
+</chat-filter>
+
+<h3>
+  {{ chats | json }}
+</h3>
+<chat-list
+  [chats]="chats"
+  (select)="handleUserUpdate($event);">
+</chat-list>

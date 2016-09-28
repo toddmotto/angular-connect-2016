@@ -1,0 +1,17 @@
+/*!
+  Components
+ */
+<chat>
+  <chat-profile></chat-profile>
+  <chat-list>
+    <chat-conversation></chat-conversation>
+  </chat-list>
+  <chat-search></chat-search>
+</chat>
+
+/*!
+  Data/state
+ */
+
+// profile
+{ name: 'Todd Motto', status: 'online' }

@@ -1,0 +1,11 @@
+<div class="conversation">
+  <div>
+    <input type="text" [(ngModel)]="chat.name">
+    <button (click)="updateUsername();">
+      Update
+    </button>
+  </div>
+  <div>
+    {{ chat.status }}
+  </div>
+<div>

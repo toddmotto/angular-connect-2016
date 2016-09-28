@@ -1,0 +1,5 @@
+<select
+  ng-model="$ctrl.status.status"
+  ng-change="handleFilter($event.target.value)"
+  ng-options="o as o for o in $ctrl.statuses">
+</select>

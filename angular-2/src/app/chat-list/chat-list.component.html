@@ -1,0 +1,9 @@
+<ul>
+  <li
+    *ngFor="let chat of chats;">
+    <chat-conversation
+      [chat]="chat"
+      (update)="onUserUpdate($event);">
+    </chat-conversation>
+  </li>
+</ul>
